@@ -84,7 +84,9 @@ html {
 }
 
 .footer-social:hover {
-    width: 6rem;
+    width: 6.5rem;
+    height: 2.8rem;
+    border-radius: 1.9rem;
 }
 
 .footer-social:hover .footer-social__show {
@@ -92,7 +94,10 @@ html {
 }
 
 .footer-social:hover .footer-social__hidden {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .footer-social a {
@@ -101,5 +106,12 @@ html {
 }
 
 .footer-social__hidden {
+    height: auto;
     display: none;
+
+}
+
+.footer-social__hidden > img {
+    width: 2.5rem;
+    height: auto;
 }
